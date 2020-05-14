@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+  background-image: url('../images/background5.gif');
+  background-size: 100% 100%;
+  min-height: 100vh;
+	user-select: none;
+	overflow: hidden;
+  animation: slide 50s infinite;
+}
+
+a {
+  font-family: 'Press Start 2P';
+  color: white;
+  position: relative;
+  top: 300px;
+  font-size: 70px;
+  text-shadow: 9px 0 #000, 0 9px #000, 9px 0 #000, 0 9px #000;
+  text-decoration: none;
+  transition: 0.2s all ease-in-out;
+  display: inline-block;
+  vertical-align: top;
+}
+
+a:hover {
+    color: lightblue;
+    transform: scale(1.01);
+}
+
+p {
+  font-family: 'Press Start 2P';
+	margin-top: 325px;
+  width: 30%;
+  overflow: hidden;
+  color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#socials {
+    margin: 0 auto;
+}
+
+#socials a {
+    font-size: 28px;
+    color: red;
+    text-decoration: none;
+    margin: 5px 16px;
+    display: inline-block;
+    vertical-align: top;
+    transition: 0.2s all ease-in-out;
+}
+
+#socials a:hover {
+    color: red;
+    transform: scale(1.02);
+}
+
+#harry {
+  position: absolute;
+  top: 880px;
+  left: 1600px;
+  border-radius: 50%;
+  width: 60px;
+  height: 50px;
+  transition: 0.2s all ease-in-out;
+}
+
+#harry:hover {
+  transform: scale(1.1);
+}
+
+pre {
+  font-family: 'Special Elite';
+  position: absolute;
+  top: 880px;
+  left: 1670px;
+  color: white;
+}
+
+@keyframes slide {
+  0% {
+    background-image: url('../images/background5.gif')
+  }
+  80% {
+    background-image: url('../images/background4.gif')
+  }
+}
